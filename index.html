@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" data-i18n-attr="content:meta.homeDescription" content="YouNote is a focused note-taking app for notebooks, whiteboards, mind maps, text documents, and flexible export on iPhone and iPad.">
+  <meta name="theme-color" content="#266EF2">
+  <title data-i18n="meta.homeTitle">YouNote - Notebook, whiteboard, and mind map workspace</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo" aria-label="YouNote home">
+        <img src="assets/images/logo/younote.png" alt="YouNote logo">
+        <span>YouNote</span>
+      </a>
+      <button class="nav-toggle" type="button" onclick="toggleMobileMenu()" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="active" data-i18n="nav.home">Home</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
+        <a href="terms.html" data-i18n="nav.terms">Terms</a>
+        <a href="support.html" data-i18n="nav.support">Support</a>
+      </div>
+      <div class="navbar-right">
+        <div class="language-selector" id="language-selector">
+          <button class="language-btn" onclick="toggleLanguageDropdown()" type="button">
+            <span class="current-lang">Language</span>
+            <span class="chevron">⌄</span>
+          </button>
+          <div class="lang-dropdown"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content fade-in">
+          <p class="eyebrow" data-i18n="hero.eyebrow">For iPhone and iPad</p>
+          <h1 data-i18n="hero.title">A calm workspace for notes, whiteboards, and mind maps.</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">YouNote keeps notebooks, freeform canvases, mind maps, and text documents together so ideas can move from rough sketch to organized page.</p>
+          <div class="hero-buttons">
+            <a href="https://apps.apple.com/app/id6769743144" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+              <span class="apple-mark"></span>
+              <span data-i18n="hero.download">Download on the App Store</span>
+            </a>
+            <a href="#features" class="btn btn-secondary btn-lg" data-i18n="hero.learnMore">Explore features</a>
+          </div>
+        </div>
+        <div class="device-stage fade-in fade-in-delay-1" aria-label="YouNote interface preview">
+          <div class="device-frame">
+            <div class="device-screen">
+              <div class="mock-header">
+                <div>
+                  <span class="mock-kicker" data-i18n="mock.library">Documents</span>
+                  <strong>YouNote</strong>
+                </div>
+                <span class="mock-add">+</span>
+              </div>
+              <div class="mock-tabs">
+                <span data-i18n="mock.notebook">Notebook</span>
+                <span data-i18n="mock.whiteboard">Whiteboard</span>
+                <span data-i18n="mock.mindmap">Mind Map</span>
+              </div>
+              <div class="mock-list">
+                <div class="doc-row blue"><span></span><div><strong data-i18n="mock.classNotes">Class notes</strong><small data-i18n="mock.updatedToday">Updated today</small></div></div>
+                <div class="doc-row green"><span></span><div><strong data-i18n="mock.projectBoard">Project board</strong><small data-i18n="mock.canvas">Infinite canvas</small></div></div>
+                <div class="doc-row purple"><span></span><div><strong data-i18n="mock.ideaMap">Idea map</strong><small data-i18n="mock.nodes">12 nodes</small></div></div>
+              </div>
+              <div class="canvas-card">
+                <div class="stroke stroke-one"></div>
+                <div class="stroke stroke-two"></div>
+                <div class="mind-node node-a">Plan</div>
+                <div class="mind-node node-b">Draft</div>
+                <div class="mind-node node-c">Export</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="features.title">Everything your notes need</h2>
+          <p data-i18n="features.subtitle">Flexible tools for writing, sketching, structuring, and keeping work organized.</p>
+        </div>
+        <div class="features-grid">
+          <article class="card fade-in"><div class="card-icon blue">✎</div><h3 data-i18n="features.notebookTitle">Notebook</h3><p data-i18n="features.notebookDesc">Create structured notebooks with pages, paper styles, handwriting tools, and export options.</p></article>
+          <article class="card fade-in fade-in-delay-1"><div class="card-icon green">□</div><h3 data-i18n="features.whiteboardTitle">Whiteboard</h3><p data-i18n="features.whiteboardDesc">Use a freeform canvas for diagrams, quick sketches, visual planning, and open-ended thinking.</p></article>
+          <article class="card fade-in fade-in-delay-2"><div class="card-icon purple">◇</div><h3 data-i18n="features.mindmapTitle">Mind Maps</h3><p data-i18n="features.mindmapDesc">Turn scattered thoughts into connected nodes for study, planning, and creative exploration.</p></article>
+          <article class="card fade-in"><div class="card-icon orange">T</div><h3 data-i18n="features.textTitle">Text Documents</h3><p data-i18n="features.textDesc">Write clean text documents alongside your visual notes without leaving the same workspace.</p></article>
+          <article class="card fade-in fade-in-delay-1"><div class="card-icon red">↥</div><h3 data-i18n="features.exportTitle">Import and Export</h3><p data-i18n="features.exportDesc">Bring files in, export notes as PDF or images, and keep your work portable when you need it.</p></article>
+          <article class="card fade-in fade-in-delay-2"><div class="card-icon teal">◎</div><h3 data-i18n="features.languageTitle">Made for Many Languages</h3><p data-i18n="features.languageDesc">Switch the app language from settings and use YouNote in the language that feels natural.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase">
+      <div class="container showcase-grid">
+        <div>
+          <h2 data-i18n="showcase.title">Built for everyday thinking</h2>
+          <p data-i18n="showcase.body">YouNote is designed for repeated use: class notes, meeting sketches, study plans, reading summaries, and personal knowledge maps all live in one quiet document library.</p>
+        </div>
+        <div class="mini-previews">
+          <div class="mini-preview"><strong data-i18n="showcase.preview1Title">Paper choices</strong><span data-i18n="showcase.preview1Body">Blank, grid, dots, and custom page colors.</span></div>
+          <div class="mini-preview"><strong data-i18n="showcase.preview2Title">Drawing tools</strong><span data-i18n="showcase.preview2Body">Pen, highlighter, eraser, text, image, and lasso.</span></div>
+          <div class="mini-preview"><strong data-i18n="showcase.preview3Title">Organized library</strong><span data-i18n="showcase.preview3Body">Separate notebooks, whiteboards, and mind maps.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section download" id="download">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="download.title">Start with YouNote</h2>
+          <p data-i18n="download.subtitle">Download YouNote on the App Store for iPhone and iPad.</p>
+        </div>
+        <a href="https://apps.apple.com/app/id6769743144" class="store-badge" target="_blank" rel="noopener noreferrer">
+          <span class="apple-mark"></span>
+          <span data-i18n="download.appstore">Download on the App Store</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div><h4>YouNote</h4><p data-i18n="footer.tagline">Notebook, whiteboard, and mind map workspace.</p></div>
+      <div><h4 data-i18n="footer.product">Product</h4><a href="index.html#features" data-i18n="footer.features">Features</a><a href="index.html#download" data-i18n="footer.download">Download</a></div>
+      <div><h4 data-i18n="footer.legal">Legal</h4><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a><a href="terms.html" data-i18n="footer.terms">Terms of Service</a></div>
+      <div><h4 data-i18n="footer.support">Support</h4><a href="support.html" data-i18n="nav.support">Support</a><a href="mailto:lkx7312172@gmail.com" data-i18n="footer.contact">Contact Us</a></div>
+    </div>
+    <div class="container footer-bottom"><p data-i18n="footer.copyright">© 2026 YouNote. All rights reserved.</p><a href="mailto:lkx7312172@gmail.com">lkx7312172@gmail.com</a></div>
+  </footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
