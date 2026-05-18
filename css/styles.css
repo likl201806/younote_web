@@ -55,7 +55,7 @@ body {
   color: var(--text-primary);
   background: var(--bg-primary);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
@@ -103,7 +103,7 @@ img {
   gap: 10px;
   color: var(--text-primary);
   font-weight: 700;
-  font-size: 1.18rem;
+  font-size: 1.08rem;
 }
 
 .nav-logo img {
@@ -123,7 +123,7 @@ img {
   padding: 8px 0;
   color: var(--text-secondary);
   font-weight: 600;
-  font-size: 0.94rem;
+  font-size: 0.9rem;
 }
 
 .nav-links a::after {
@@ -243,7 +243,7 @@ img {
   color: var(--primary);
   background: color-mix(in srgb, var(--primary) 11%, transparent);
   font-weight: 700;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
 }
 
 h1,
@@ -256,23 +256,23 @@ h4 {
 
 h1 {
   max-width: 760px;
-  font-size: clamp(2.45rem, 6vw, 4.85rem);
+  font-size: clamp(1.85rem, 3.8vw, 3rem);
   letter-spacing: 0;
 }
 
 h2 {
-  font-size: clamp(1.75rem, 4vw, 2.65rem);
+  font-size: clamp(1.35rem, 2.5vw, 1.9rem);
 }
 
 h3 {
-  font-size: 1.22rem;
+  font-size: 1.08rem;
 }
 
 .hero-subtitle {
   max-width: 650px;
   margin: var(--spacing-lg) 0 var(--spacing-xl);
   color: var(--text-secondary);
-  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  font-size: clamp(0.96rem, 1.25vw, 1.06rem);
 }
 
 .hero-buttons,
@@ -381,7 +381,7 @@ h3 {
   border-radius: 50%;
   color: white;
   background: var(--primary);
-  font-size: 1.4rem;
+  font-size: 1.18rem;
 }
 
 .mock-tabs {
@@ -505,7 +505,7 @@ h3 {
 .showcase p {
   margin-top: 12px;
   color: var(--text-secondary);
-  font-size: 1.08rem;
+  font-size: 1rem;
 }
 
 .features-grid {
@@ -595,7 +595,7 @@ h3 {
 .legal-content h2 {
   margin-top: var(--spacing-xl);
   margin-bottom: var(--spacing-md);
-  font-size: 1.45rem;
+  font-size: 1.25rem;
 }
 
 .legal-content p,
@@ -639,7 +639,7 @@ h3 {
   color: white;
   background: var(--primary);
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .faq-item {
